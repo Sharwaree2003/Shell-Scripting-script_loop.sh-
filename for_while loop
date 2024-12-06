@@ -1,0 +1,15 @@
+#!/bin/bash
+#This is a simple script to demonstrate loops in Bash
+#Using a for loop to iterate through a list of numbers
+for i in 1 2 3 4 5;                  #Loop through the number 1 to 5   
+do
+echo "Number $i"                     #Print each number with a label
+done
+#Initialize a counter variable for the while loop
+count=1
+#Using a while loop to repeat a task while a condition is true
+while [ $count -le 5 ];              #Continue looping as long as count is less than or equal to 5
+do
+echo "Count is $count"               #Print the current value of the counter
+count=$((count+1))                   #Increment the counter by 1
+done
